@@ -1,0 +1,36 @@
+.page-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .moto-image {
+    width: 45%; /* Define a largura das imagens */
+    margin: 10px; /* Espaçamento entre as imagens */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  .image-container {
+    display: flex; /* Utiliza flexbox para alinhar as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  button.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.back-button:hover {
+    background-color: #0056b3;
+  }
+  
